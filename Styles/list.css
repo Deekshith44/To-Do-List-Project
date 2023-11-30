@@ -76,7 +76,7 @@ input,button
     font-size: 1.24rem;
     font-weight: 700;
     background-image: linear-gradient(to right,var(--pink),var(--purple));
-    -webkit-background-clip:text;
+    -webkit-background-clip:text;  /*without this line text wont visible*/
     -webkit-text-fill-color:transparent;
     cursor: pointer;
     transition: 0.4s;
@@ -126,9 +126,9 @@ main{
 .task
 
 {
-margin-right: 100px;
-position: relative;
-right: 23px;
+    margin-right: 100px;
+    position: relative;
+    right: 23px;
 
 }
 
